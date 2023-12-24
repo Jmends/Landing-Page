@@ -87,7 +87,12 @@ body {
     font-size: 18px;
     border-radius: 8px;
     color: #e5e7eb;
+    cursor: pointer;
 
+}
+.hero-button:hover{
+    background-color: white;
+    color: black;
 }
 
 
