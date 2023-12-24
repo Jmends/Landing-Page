@@ -41,25 +41,43 @@ body {
     flex-direction: row;
     background-color: #1f2937;
     align-self: stretch;
-    padding: 60px 10%;
+    padding: 100px 10%;
+    gap: 80px;
+    align-items: center;
+
+
 }
 
 .hero-left {
     flex-wrap: wrap;
     flex: 1;
-    margin-right: 100px;
+    margin-left: 50px;
 
+    /* border: 2px solid white; */
 }
 
 .hero-left h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #f9faf8;
+
 }
 
 .hero-left p {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero-right {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.hero-right img {
+    object-fit: contain;
+    max-width: 100%;
+    margin-left: 200px;
 }
 
 .hero-button {
