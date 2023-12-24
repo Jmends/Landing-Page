@@ -90,14 +90,15 @@ body {
     cursor: pointer;
 
 }
-.hero-button:hover{
+
+.hero-button:hover {
     background-color: white;
     color: black;
 }
 
 
 
-.contact{
+.contact {
     display: flex;
     margin: 80px 10%;
     background-color: #3882f6;
@@ -106,14 +107,16 @@ body {
     color: #f9faf8;
     padding: 20px 10%;
 }
-.contact-box{
+
+.contact-box {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
 
 }
-.contact-button{
+
+.contact-button {
     margin-left: auto;
     font-size: 20px;
     border: 3px solid #f9faf8;
@@ -121,22 +124,25 @@ body {
     border-radius: 10px;
     cursor: pointer;
 }
-.contact-button:hover{
+
+.contact-button:hover {
     background-color: white;
     color: black;
 }
 
-.call-to-action{
+.call-to-action {
     display: flex;
     flex-direction: column;
     margin: 20px 20px;
 }
-.call-to-action h4{
+
+.call-to-action h4 {
     font-size: 30px;
     font-weight: 900;
     margin: 0px;
 }
-.call-to-action p{
+
+.call-to-action p {
     font-size: 22px;
     font-weight: 500;
     margin: 0px;
@@ -173,10 +179,13 @@ body {
     background-color: #1f2937;
     align-self: stretch;
     justify-content: center;
+    height: 60px;
+    align-content: center;
+    flex-wrap: wrap;
 
 }
 
 .footer p {
     color: #e5e7eb;
-    font-size: 15px;
+    font-size: 18px;
 }
